@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
-
+body{
+    font-family: "Cabin", sans-serif;
+}
 
 
 header{
     background-color: #255ee9;
-    padding: 1.2rem 4rem 1rem 10rem;
+    padding: 1.5rem 8rem;
+
 }
 
 .header,
