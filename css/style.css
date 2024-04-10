@@ -25,6 +25,12 @@ nav ul{
 
 header button{
     color: black;
+
+}
+
+header button:hover{
+    color: rgb(88 101 242);
+    box-shadow: 5px 5px 10px rgb(57, 72, 238); 
 }
 
 li{
@@ -80,14 +86,24 @@ section.jumbo{
 }
 
 
-div button:last-child{
+.button_size_jumbo button:last-child{
     background-color: #23272a;
     color: white;
 }
-div button{
-    font-size: 1.2rem;
+.button_size_jumbo button{
+    font-size: 20px;
+    padding: 1rem 1.5rem;
 }
 
+.button_size_jumbo button:first-child:hover{
+    color: rgb(88 101 242);
+    box-shadow: 5px 5px 10px rgb(57, 72, 238);
+}
+
+.button_size_jumbo button:last-child:hover{
+    background-color: #313335;
+    box-shadow: 5px 5px 10px rgb(57, 72, 238);
+}
 
 /* prima sezione e terza */
 
@@ -200,7 +216,7 @@ section.main_botton{
 }
 .main_botton button{
     margin-right: 1rem;
-    padding: 0.7rem 1.2rem;
+    padding: 0.7rem 2rem;
     border-radius: 30px;
     border: none;
     background-color: #7289da;
@@ -209,6 +225,10 @@ section.main_botton{
     color: white;
 }
 
+.main_botton button:hover{
+    background-color: #7289da;
+    box-shadow: 0 8px 5px rgba(0,0,0,.2);
+}
 
 /* footer */
 
@@ -287,3 +307,7 @@ hr{
     background-color: #7289da;
 }
 
+.second_footer button:hover{
+    background-color: #7289da;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2)
+}
