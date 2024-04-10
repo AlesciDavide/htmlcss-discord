@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Cabin", sans-serif;
+}
+
+header{
+    background-color: #255ee9;
+    padding: 1.5rem 8rem;
+
+}
+
+.header,
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+header button{
+    color: black;
+
+}
+
+header button:hover{
+    color: rgb(88 101 242);
+    box-shadow: 5px 5px 10px rgb(57, 72, 238); 
+}
+
+li{
+    list-style-type: none;
+    list-style: none;
+    margin-right: 2rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+a,
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    margin-right: 1rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+}
+
+/* jumbo */
+
+.flex_total_colum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex_total_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.color_bluegeneral{
+    background-color: #625edb;
+    padding-bottom: 50px;
+    
+}
+
+.header_pag2{
+    background-color: #625edb;
+    padding: 1.5rem 8rem;
+}
+
+.jumbo_pag2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 0 50px 150px;
+}
+
+.jumbo_pag2 h1{
+    color: white;
+    font-size: 5rem;
+    line-height: 4rem;
+    padding-bottom: 25px;
+    width: 43%;
+}
+
+.jumbo_pag2 p{
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    width: 43%;
+}
+
+.jumbo_pag2 p:last-child{
+    padding-top: 15px;
+}
+
+.jumbo_botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 10px 10px;
+}
+
+.jumbo_botton button{
+    font-size: 1.5rem;
+    width: 200px;
+    height: 100px;
+    flex-grow: 1;
+    box-shadow: 5px 5px #57f287;
+    border-radius: 20px;
+}
+
+.jumbo_botton button:hover{
+    background-color: #57f287;
+    box-shadow: 5px 5px black;
+}
+
+/* main */
+
+.video_section{
+    margin: 100px;
+}
+
+.video_section h1{
+    font-size: 3.5rem;
+    padding-bottom: 50px;
+}
+
+
+.flex_total_row div,
+.flex_total_row img{
+    width: 35%;
+    padding: 50px;
+}
+
+.scritte_main_box h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.scritte_main_box p{
+    color: #525760;
+    padding-bottom: 15px;
+}
+
+/* footer */
+
+footer{
+    background-color: #23272a;
+}
+
+footer li{
+    padding-top: 14px;
+    
+}
+
+.color_footer_gr{
+    color: #7288d9;
+}
+
+h2.color_footer_gr{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.main_footer{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 5% 2% 2% 10%;
+    align-items: flex-start;
+}
+
+.main_footer div{
+    flex-grow: 1;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.main_footer ul{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+div.i_footer{
+    display: flex;
+}
+
+.i_footer i,
+p img{
+    width: 30px;
+    padding-right: 5px;
+}
+
+
+.i_footer{
+    padding-top: 20px;
+}
+
+hr{
+    background-color: #23272a;
+    margin: 0 10%;
+}
+
+/* secondo footer */
+
+
+.second_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10% 50px 10%;
+}
+
+.second_footer button{
+    margin-right: 1rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #7289da;
+}
+
+.second_footer button:hover{
+    background-color: #7289da;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2)
+}
