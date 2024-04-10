@@ -88,8 +88,9 @@ button{
 }
 
 .jumbo_pag2 h1{
+    font-family: "Alfa Slab One", serif;
     color: white;
-    font-size: 5rem;
+    font-size: 3.5rem;
     line-height: 4rem;
     padding-bottom: 25px;
     width: 43%;
@@ -194,7 +195,6 @@ h2.color_footer_gr{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-
 }
 
 div.i_footer{
@@ -207,7 +207,6 @@ p img{
     padding-right: 5px;
 }
 
-
 .i_footer{
     padding-top: 20px;
 }
@@ -218,7 +217,6 @@ hr{
 }
 
 /* secondo footer */
-
 
 .second_footer{
     display: flex;
