@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header{
+    background-color: #255ee9;
+    padding: 1.2rem 4rem 1rem 10rem;
+}
+
+.header,
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+header button{
+    color: black;
+}
+li{
+    list-style-type: none;
+    list-style: none;
+    margin-right: 2rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+button{
+    margin-right: 1rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+}
+
+
+
+/* jumbo */
+
+
+section.jumbo{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    padding: 120px 20% 120px 20%;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.jumbo h1{
+    color: white;
+    font-size: 3rem;
+
+}
+
+.jumbo p{
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px 10px 40px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    width: 90%;
+
+}
+
+
+div button:last-child{
+    background-color: #23272a;
+    color: white;
+}
+div button{
+    font-size: 1.5rem;
+}
+
+
+/* prima sezione e terza */
+
+div h2{
+    font-size: 3.4rem;
+}
+
+section.section_main{
+    display: flex;
+    padding: 75px;
+
+}
+
+.section_main img{
+    display: flex;
+    width: calc(65% - 75px);
+    padding-left: 80px;
+}
+
+.section_main div{
+    width: 35%;
+    align-content: center;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+div .text_p{
+    padding-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+
+/* seconda sezione */
+
+
+.section_main_due{
+    display: flex;
+    padding-bottom: 50px;
+    background-color: #f6f6f6;
+}
+
+.flex_svg{
+    display: flex;
+}
+
+.flex_svg_rotate{
+    display: flex;
+    transform: rotate(180deg);
+}
+
+.section_main_due div{
+    display: flex;
+    width: 35%;
+    align-self: center;
+    flex-direction: column;
+    padding-left: 150px;
+}
+
+.section_main_due img{
+    width: calc(65% - 150px);
+    display: flex;
+    padding: 20px 0 20px 20px;
+
+}
+
+/* quarta sezione del main */
+
+section.main_botton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    background-color: #f6f6f6;
+}
+
+.main_botton div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 60px 20px 60px;
+    justify-content: center;
+    width: 75%;
+}
+
+.main_botton img{
+    width: 80%;
+    
+}
+
+.section_quattro_p{
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px 10px 40px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.main_botton h3{
+    font-size: 2rem;
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 50px 50px 0 50px;
+}
+.main_botton button{
+    margin-right: 1rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #7289da;
+    margin: 50px 0 100px 0;
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #23272a;
+}
+
+li{
+    padding-top: 5px;
+    
+}
+
+.color_footer_gr{
+    color: #7288d9;
+}
+
+h2.color_footer_gr{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.main_footer{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 5% 2% 2% 10%;
+    align-items: flex-start;
+}
+
+.main_footer div{
+    flex-grow: 1;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.main_footer ul{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+div.img_footer{
+    display: flex;
+}
+
+.img_footer img,
+p img{
+    width: 30px;
+}
+
+.img_footer{
+    padding-top: 10px;
+}
+
+hr{
+    background-color: #23272a;
+    margin: 0 10%;
+}
+
+/* secondo footer */
+
+
+.second_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10% 50px 10%;
+}
+
+.second_footer button{
+    margin-right: 1rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #7289da;
+}
+
